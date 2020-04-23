@@ -22,7 +22,6 @@ sampleVertex <- function(n) {
   angle = 2 * pi / n * (sample(n, 1))
 
   midpoint + radius * c(sin(angle), cos(angle))
-  c(x=1, y=1)
 }
 
 # Create a point that is a step from `from` to `to`
